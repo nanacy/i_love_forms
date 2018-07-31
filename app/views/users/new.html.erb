@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"/>
+	<title>Page love forms</title>
+</head>
+<body>
+	<!-- barre de navigation -->
+	<ul class="nav nav-pills nav-fill">
+	  <li class="nav-item">
+	    <a class="nav-link" href="/">Accueil</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link active" href="/form1">Formulaire 1</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="/form2">Formulaire 2</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="/form3">Formulaire 3</a>
+	  </li>
+	</ul>
+
+	<center>
+		<br><br>
+		<h1>Page formulaire 1</h1>
+		<small id="emailHelp" class="form-text text-muted">Fais à l'aide de HTML.</small><br>
+	
+		<!--formulaire : HTML -->
+		<form method="post">
+		  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
+		  <div class="form-group">
+		  	<label for="exampleInputEmail1">Username</label>
+		    <input type="text" class="form-control col-sm-5" id="exampleInputEmail1" placeholder="ex : LaraCroft" name="username"><br>
+
+		    <label for="exampleInputEmail1">Email address</label>
+		    <input type="email" class="form-control col-sm-5" id="exampleInputEmail1" placeholder="ex : name@example.com" name="email">
+		    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+		  </div>
+
+		  <div class="form-group">
+		    <label for="exampleFormControlTextarea1">Biographie</label>
+		    <textarea class="form-control col-sm-5" id="exampleFormControlTextarea1" rows="3" name="bio"></textarea>
+		  </div>
+
+		  <div class="form-check">
+		    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+		    <label class="form-check-label" for="exampleCheck1">Check for a surprise</label><br>
+	  	  	<button type="submit" class="btn btn-primary">Submit the form</button><br><br>
+		  </div><br>
+
+
+		  <p>Retour vers : <a href="/">Accueil</a></p>
+		</form>
+	</center>
+
+</body>
+</html>
