@@ -1,24 +1,15 @@
 # README
+Follow the following rule
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
+ 
+```
+cd app_form_nancy/
+```
 
-Things you may want to cover:
+## Display the program
 
-* Ruby version
+* Open the file : https://heroku-je-me-presente.herokuapp.com
+* Do not forget to actualize and enjoy
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+--------------------------------------
