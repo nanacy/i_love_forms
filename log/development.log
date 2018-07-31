@@ -4765,3 +4765,367 @@ Processing by UsersController#accueil as HTML
 Completed 200 OK in 69ms (Views: 65.6ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 127.0.0.1 at 2018-08-01 00:46:43 +0200
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/nancy/.rvm/gems/ruby-2.5.1/gems/activerecord-5.2.0/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#accueil as HTML
+  Rendering users/accueil.html.erb within layouts/application
+  Rendered users/accueil.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 775ms (Views: 749.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form1" for 127.0.0.1 at 2018-08-01 00:46:48 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 96ms (Views: 61.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/form2" for 127.0.0.1 at 2018-08-01 00:46:49 +0200
+Processing by UsersController#new2 as HTML
+  Rendering users/new2.html.erb within layouts/application
+  Rendered users/new2.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 64ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form3" for 127.0.0.1 at 2018-08-01 00:46:50 +0200
+Processing by UsersController#new3 as HTML
+  Rendering users/new3.html.erb within layouts/application
+  Rendered users/new3.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 88ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-01 00:46:51 +0200
+Processing by UsersController#accueil as HTML
+  Rendering users/accueil.html.erb within layouts/application
+  Rendered users/accueil.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 74ms (Views: 70.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-01 00:47:56 +0200
+Processing by UsersController#accueil as HTML
+  Rendering users/accueil.html.erb within layouts/application
+  Rendered users/accueil.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 60ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-01 00:48:18 +0200
+Processing by UsersController#accueil as HTML
+  Rendering users/accueil.html.erb within layouts/application
+  Rendered users/accueil.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 58ms (Views: 53.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-01 00:48:42 +0200
+Processing by UsersController#accueil as HTML
+  Rendering users/accueil.html.erb within layouts/application
+  Rendered users/accueil.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 69ms (Views: 64.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form" for 127.0.0.1 at 2018-08-01 00:48:50 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/form"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-01 00:50:16 +0200
+Processing by UsersController#accueil as HTML
+  Rendering users/accueil.html.erb within layouts/application
+  Rendered users/accueil.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 66ms (Views: 63.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2018-08-01 00:50:17 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/new2" for 127.0.0.1 at 2018-08-01 00:50:24 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/new2"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2018-08-01 00:51:04 +0200
+Processing by UsersController#accueil as HTML
+  Rendering users/accueil.html.erb within layouts/application
+  Rendered users/accueil.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 66ms (Views: 61.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/new" for 127.0.0.1 at 2018-08-01 00:51:05 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/new3" for 127.0.0.1 at 2018-08-01 00:51:59 +0200
+  
+ActionController::RoutingError (No route matches [GET] "/new3"):
+  
+actionpack (5.2.0) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.0) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.0) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.0) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.0) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.0) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.2.0) lib/rails/engine.rb:524:in `call'
+puma (3.12.0) lib/puma/configuration.rb:225:in `call'
+puma (3.12.0) lib/puma/server.rb:658:in `handle_request'
+puma (3.12.0) lib/puma/server.rb:472:in `process_client'
+puma (3.12.0) lib/puma/server.rb:332:in `block in run'
+puma (3.12.0) lib/puma/thread_pool.rb:133:in `block in spawn_thread'
+Started GET "/form3" for 127.0.0.1 at 2018-08-01 00:52:03 +0200
+Processing by UsersController#new3 as HTML
+  Rendering users/new3.html.erb within layouts/application
+  Rendered users/new3.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 68ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-01 00:52:43 +0200
+Processing by UsersController#accueil as HTML
+  Rendering users/accueil.html.erb within layouts/application
+  Rendered users/accueil.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 66ms (Views: 62.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form1" for 127.0.0.1 at 2018-08-01 00:52:45 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 72ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-01 00:52:47 +0200
+Processing by UsersController#accueil as HTML
+  Rendering users/accueil.html.erb within layouts/application
+  Rendered users/accueil.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 77ms (Views: 68.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form2" for 127.0.0.1 at 2018-08-01 00:52:48 +0200
+Processing by UsersController#new2 as HTML
+  Rendering users/new2.html.erb within layouts/application
+  Rendered users/new2.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 80ms (Views: 75.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-01 00:52:49 +0200
+Processing by UsersController#accueil as HTML
+  Rendering users/accueil.html.erb within layouts/application
+  Rendered users/accueil.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 80ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form3" for 127.0.0.1 at 2018-08-01 00:52:50 +0200
+Processing by UsersController#new3 as HTML
+  Rendering users/new3.html.erb within layouts/application
+  Rendered users/new3.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 77ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-01 00:52:51 +0200
+Processing by UsersController#accueil as HTML
+  Rendering users/accueil.html.erb within layouts/application
+  Rendered users/accueil.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 81ms (Views: 77.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form1" for 127.0.0.1 at 2018-08-01 00:52:57 +0200
+Processing by UsersController#new as HTML
+  Rendering users/new.html.erb within layouts/application
+  Rendered users/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 74ms (Views: 70.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/form1" for 127.0.0.1 at 2018-08-01 00:53:14 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"authenticity_token"=>"rRYA3W//qsBkU+FBPekeNz0WSsb2S6Mdjej0okm1Tt8JgtdnWMCSNyE2SRZKRSDbPY+a17i0ykl2lNUAYlUsCg==", "username"=>"azerty", "email"=>"abcd@gmail.com", "bio"=>"qwerty"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20
+  [1m[36mUser Create (1.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "bio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "azerty"], ["email", "abcd@gmail.com"], ["bio", "qwerty"], ["created_at", "2018-07-31 22:53:14.421877"], ["updated_at", "2018-07-31 22:53:14.421877"]]
+  ↳ app/controllers/users_controller.rb:20
+  [1m[35m (10.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20
+Redirected to http://localhost:3000/
+Completed 302 Found in 26ms (ActiveRecord: 11.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-01 00:53:14 +0200
+Processing by UsersController#accueil as HTML
+  Rendering users/accueil.html.erb within layouts/application
+  Rendered users/accueil.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 66ms (Views: 61.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form2" for 127.0.0.1 at 2018-08-01 00:53:16 +0200
+Processing by UsersController#new2 as HTML
+  Rendering users/new2.html.erb within layouts/application
+  Rendered users/new2.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 71ms (Views: 67.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/form2?method=post" for 127.0.0.1 at 2018-08-01 00:53:22 +0200
+Processing by UsersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wqD+BsFMHe3seL62xhEQ9L06cmotrazmHNF3rrFe13LX89G3njNry82WlxxtI8PQ2Q97xE4xd9tf+xlVNCN5Qw==", "username"=>"lara", "email"=>"abcd@gmail.com", "bio"=>"croft", "commit"=>"Submit the form", "method"=>"post"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:20
+  [1m[36mUser Create (10.6ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "bio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "lara"], ["email", "abcd@gmail.com"], ["bio", "croft"], ["created_at", "2018-07-31 22:53:22.480991"], ["updated_at", "2018-07-31 22:53:22.480991"]]
+  ↳ app/controllers/users_controller.rb:20
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:20
+Redirected to http://localhost:3000/
+Completed 302 Found in 31ms (ActiveRecord: 17.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-01 00:53:22 +0200
+Processing by UsersController#accueil as HTML
+  Rendering users/accueil.html.erb within layouts/application
+  Rendered users/accueil.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 72ms (Views: 68.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form3" for 127.0.0.1 at 2018-08-01 00:53:24 +0200
+Processing by UsersController#new3 as HTML
+  Rendering users/new3.html.erb within layouts/application
+  Rendered users/new3.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 74ms (Views: 69.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/form3" for 127.0.0.1 at 2018-08-01 00:53:33 +0200
+Processing by UsersController#createBis as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tK4wGJu35Vm5xHpcZ0+VKie471ArfsC02AZLSq3PBooQOueirIjdrvyh0gsQ46vGJyE/QWWBqeAjemrohi9kXw==", "user"=>{"username"=>"tic", "email"=>"abcd@gmail.com", "bio"=>"tac"}, "commit"=>"Submit the form"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/users_controller.rb:30
+  [1m[36mUser Create (0.8ms)[0m  [1m[32mINSERT INTO "users" ("username", "email", "bio", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["username", "tic"], ["email", "abcd@gmail.com"], ["bio", "tac"], ["created_at", "2018-07-31 22:53:33.530276"], ["updated_at", "2018-07-31 22:53:33.530276"]]
+  ↳ app/controllers/users_controller.rb:30
+  [1m[35m (11.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/users_controller.rb:30
+Redirected to http://localhost:3000/
+Completed 302 Found in 33ms (ActiveRecord: 12.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-08-01 00:53:33 +0200
+Processing by UsersController#accueil as HTML
+  Rendering users/accueil.html.erb within layouts/application
+  Rendered users/accueil.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 66ms (Views: 62.6ms | ActiveRecord: 0.0ms)
+
+

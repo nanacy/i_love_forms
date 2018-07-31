@@ -5,9 +5,38 @@
 	<title>Page forms</title>
 </head>
 <body>
-	<p><a href="/form1">Formulaire 1</a></p>
-	<p><a href="/form2">Formulaire 2</a></p>
-	<p><a href="/form3">Formulaire 3</a></p>
+
+	<!-- barre de navigation -->
+	<ul class="nav nav-pills nav-fill">
+	  <li class="nav-item">
+	    <a class="nav-link active" href="/">Accueil</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="/form1">Formulaire 1</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="/form2">Formulaire 2</a>
+	  </li>
+	  <li class="nav-item">
+	    <a class="nav-link" href="/form3">Formulaire 3</a>
+	  </li>
+	</ul>
+
+	<center>
+		<h1>Page accueil</h1>
+		<p>Faite vous plaisir. Choissisez : </p>
+
+		<form action="/form1" method="get">
+			<button type="submit" class="btn btn-success col-sm-2">Formulaire 1</button>
+		</form>
+		<form action="/form2" method="get">
+			<button type="submit" class="btn btn-secondary col-sm-2">Formulaire 2</button>
+		</form>
+		<form action="/form3" method="get">
+			<button type="submit" class="btn btn-success col-sm-2">Formulaire 3</button>
+		</form>
+	</center>
+
 
 </body>
 </html>
